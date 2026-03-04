@@ -40,4 +40,4 @@ jobs:
             docker image pull lanero/examen:breakout
             docker container stop breakout
             docker container rm breakout
-            docker container run -d --name flask -p 80:5000 lanero/examen:breakout
+            docker container run -d --name breakout -p 80:80 lanero/examen:breakout
